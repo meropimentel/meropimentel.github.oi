@@ -1,0 +1,112 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eeefe3; /*suavizando o brancão do form que estava encandecente */
+
+    /*background-color: #f9f9f9;*/
+}
+
+header {
+    color: #fff;
+    background-color: #333; /* Só para dar contraste para que a sombra seja visível*/ 
+    padding: 10px 0; 
+    position: relative; 
+   /* z-index: 10;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); /* box-shadow: propriedade que cria a sombra*/ 
+    /*0px → deslocamento horizontal (sem mover para os lados).
+        4px → deslocamento vertical (sombra para baixo).
+        6px → desfoque da sombra.
+        rgba(0,0,0,0.3) → cor da sombra (preto com 30% de opacidade).*/
+}
+
+/*.main-sec-ol {
+        margin: 0 auto;        /* Centraliza o elemento <ol> horizontalmente  /*
+        display: inline-block; /* Faz o <ol> se comportar como bloco ajustável  /*
+        text-align: left;      /* Mantém os números alinhados ao texto */
+        /* background-color: #eeefe3; para igualar a cor de fundo do body com bloco que a propriedade DISPLAY: inline-block gera (ficando branco e o body braanco opaco  /*
+}
+
+#home { 
+    /*background-color: #eeefe3; 
+    padding: 20px; /* 
+}*/
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    /*list-style-type: none; */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin: 10px;
+}
+
+form textarea {
+    max-width: 100%;
+    width: 500px;
+}
+
+#table-projetos {
+  width:100%;
+  text-align: center;
+}
+
+section {
+    margin: 20px 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+
+.item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 300px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4 8 rgba(0, 0, 0, 0.1);
+}
+
+#profileimg {
+    width: 150px;
+    border-radius: 50%;
+}
